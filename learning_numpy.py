@@ -203,6 +203,3 @@ var=data[[3,5,7]]                                             #accessing multipl
 data=np.any(filedata>15,axis=0)                               #apply condition on column.any one value in column satisfies return true
 data=np.all(filedata>15,axis=0)                               #all value in column satisfies only then return true
 data=filedata[(filedata>15) & (filedata<20)]                  #apply multiple conditions
-
-
-#make dataset html and django/flask
